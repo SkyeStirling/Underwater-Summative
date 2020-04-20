@@ -1,4 +1,4 @@
-let dropDownButton = document.querySelector(".menu-icon");
+let dropDownButton = document.querySelector(".dropDownMenu");
 let dropDownMenu = document.querySelector(".dropdown-menu");
 let visible = 0;
 
