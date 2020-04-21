@@ -16,7 +16,7 @@
   position: absolute;
   width: 100%;
   background-color: rgba(0,0,0,0.8);
-  height: 100vh;
+  height: 100%;
 }
 
 .main-logo {
@@ -30,7 +30,9 @@
 }
 
 .dropdown-menu li {
-  background-color: white;
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
   display: block;
     width: 200px;
   margin: 30px auto;
@@ -40,7 +42,7 @@
 .dropdown-menu a {
   padding: 10px 20px;
   width: 100%;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
