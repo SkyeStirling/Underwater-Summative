@@ -32,6 +32,11 @@ html,body {
   float:left;
 }
 
+.calendar {
+   width: 100%;
+}
+
+
 body {
   box-sizing: content-box;
   height: 100%;
@@ -43,6 +48,9 @@ body {
   background-size: cover;
 }
 
+.contact-us-heading {
+  text-align: center;
+}
 
 
 /* ________________MOBILE__________________ */
@@ -64,6 +72,10 @@ body {
 .content-wrapper {
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.contact {
+margin: 0 auto;
 }
 
 .navigation {
@@ -113,6 +125,7 @@ body {
   text-align: center;
 }
 
+
 .card-wrapper {
   border: 2px solid white;
   max-width: 50%;
@@ -120,6 +133,13 @@ body {
   padding-bottom: 0px;
   transition: all ease 0.2s;
   cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.card-wrapper2 {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 0px;
   margin-bottom: 60px;
 }
 
@@ -176,7 +196,9 @@ body {
 }
 
 .dropdown-menu li {
-  background-color: white;
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
   display: block;
     width: 200px;
   margin: 30px auto;
@@ -186,12 +208,12 @@ body {
 .dropdown-menu a {
   padding: 10px 20px;
   width: 100%;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 
-@media only screen and (min-width : 740px) {
+@media only screen and (min-width : 800px) {
 
 /* ______________ TABLET ______________________________ */
 
@@ -286,6 +308,13 @@ body {
     border: 7px solid white;
   }
 
+  .card-wrapper2 {
+    max-width: 50%;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    margin-bottom: 60px;
+  }
+
   .card-image {
     height: 150px;
     width: 100%;
@@ -373,6 +402,10 @@ body {
     margin: 0 auto;
   }
 
+  .col-0 {
+    display: inline-block;
+  }
+
   .navigation {
     /* height: 100px; */
     font-weight: bold;
@@ -429,7 +462,7 @@ body {
   }
 
   .card-wrapper2 {
-    width: 80%;
+    width: 100%;
   }
 
   .card-image {
@@ -437,7 +470,6 @@ body {
     width: 100%;
     text-align: center;
     overflow: hidden;
-    display: relative;
   }
 
   .card-text {
@@ -495,5 +527,8 @@ body {
     text-decoration: none;
   }
 
+  .col0-L {
+    display: none;
+  }
 
 }
